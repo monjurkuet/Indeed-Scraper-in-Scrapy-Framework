@@ -10,23 +10,23 @@ import scrapy
 
 class IndeedItem(scrapy.Item):
 
-	company = scrapy.Field()
+	Job_title = scrapy.Field()
 
-	rating = scrapy.Field()
+	Job_description = scrapy.Field()
 
-	title = scrapy.Field()
+	Company_name = scrapy.Field()
 
-	position = scrapy.Field()
+	Company_Indeed_URL = scrapy.Field()
 
-	status = scrapy.Field()
+	URL_to_job_listing = scrapy.Field()
 
-	location = scrapy.Field()
+	Company_size = scrapy.Field()
 
-	content = scrapy.Field()
+	Company_industry = scrapy.Field()
 
-	date = scrapy.Field()
+	Company_description = scrapy.Field()
 
-	Pros = scrapy.Field()
+	Company_URL = scrapy.Field()
 
 	Cons = scrapy.Field()
 
