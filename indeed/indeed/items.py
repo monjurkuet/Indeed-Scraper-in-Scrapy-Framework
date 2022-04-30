@@ -28,7 +28,7 @@ class IndeedItem(scrapy.Item):
 
 	Company_URL = scrapy.Field()
 
-	Cons = scrapy.Field()
+	Job_Type = scrapy.Field()
 
 	helpful = scrapy.Field()
 
